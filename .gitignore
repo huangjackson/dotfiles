@@ -1,0 +1,14 @@
+# MacOS
+.DS_Store
+
+# zsh
+.zsh_history
+.zsh_sessions/
+.zprofile
+
+# vim
+viminfo
+
+# git (temporary)
+git/config
+

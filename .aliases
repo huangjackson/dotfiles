@@ -1,0 +1,6 @@
+# fix VIMINIT conflict with neovim
+alias vim='VIMINIT="source ~/.config/vim/vimrc" vim'
+
+# ls
+alias ls='ls --color=auto'
+alias la='ls -A'

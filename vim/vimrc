@@ -1,0 +1,7 @@
+set runtimepath+=~/.config/vim,~/.config/vim/after
+
+if !has('nvim')
+    set viminfo+=n~/.config/vim/viminfo
+else
+    " Do nothing, use Neovim default
+endif
