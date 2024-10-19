@@ -9,6 +9,6 @@
 # vim
 viminfo
 
-# git (temporary)
-git/config
+# git
+git/config.local
 

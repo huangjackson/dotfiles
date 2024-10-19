@@ -1,0 +1,6 @@
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[include]
+	path = ~/.config/git/config.local
