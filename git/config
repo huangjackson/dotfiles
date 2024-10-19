@@ -4,3 +4,8 @@
 	gpgsign = true
 [include]
 	path = ~/.config/git/config.local
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
