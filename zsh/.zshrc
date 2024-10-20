@@ -3,7 +3,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# terminal
+# terminal colors
 export CLICOLOR=1
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
@@ -15,6 +15,9 @@ setopt SHARE_HISTORY
 
 # aliases
 source $HOME/.config/.aliases
+
+# completion
+source $HOME/.config/zsh/completion.zsh
 
 # powerlevel10k
 source $HOME/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
