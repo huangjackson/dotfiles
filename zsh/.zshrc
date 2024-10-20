@@ -5,6 +5,7 @@ fi
 
 # terminal
 export CLICOLOR=1
+export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
 # navigation
 setopt AUTOCD
