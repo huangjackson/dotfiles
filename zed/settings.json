@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -15,10 +22,15 @@
   "buffer_font_size": 14,
   "theme": {
     "mode": "system",
-    "light": "Gruvbox Light",
-    "dark": "Gruvbox Dark"
+    "light": "One Light",
+    "dark": "One Dark"
   },
   "terminal": {
     "font_family": "MesloLGS NF"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
   }
 }
