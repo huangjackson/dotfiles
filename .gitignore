@@ -11,3 +11,12 @@ viminfo
 # git
 git/config.local
 
+# zed
+zed/conversations
+zed/embeddings
+zed/prompts
+zed/themes
+
+# other
+github-copilot/hosts.json
+
