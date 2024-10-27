@@ -22,6 +22,9 @@ source $HOME/.config/.aliases
 # completion
 source $HOME/.config/zsh/completion.zsh
 
+# highlighting
+source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # powerlevel10k
 source $HOME/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
