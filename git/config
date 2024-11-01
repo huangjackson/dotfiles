@@ -3,9 +3,14 @@
 [commit]
 	gpgsign = true
 [alias]
-	st = status
+    aa = add --all
+	st = status -sb
 	ci = commit
 	br = branch
 	co = checkout
+	lg = log --pretty=oneline -n 20 --graph --abbrev-commit
+	aliases = config --get-regexp alias
 [include]
 	path = ~/.config/git/config.local
+[submodule]
+	recurse = true
