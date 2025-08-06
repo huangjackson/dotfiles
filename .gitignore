@@ -4,6 +4,7 @@
 # zsh
 .zsh_history
 .zsh_sessions/
+.zcompdump
 
 # vim
 viminfo
@@ -17,7 +18,5 @@ zed/embeddings
 zed/prompts
 zed/themes
 
-# other
-github-copilot/hosts.json
-github-copilot/versions.json
-
+# GitHub Copilot
+github-copilot/
