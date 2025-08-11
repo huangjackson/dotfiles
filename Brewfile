@@ -1,0 +1,6 @@
+brew "ffmpeg"
+brew "git"
+brew "gnupg"
+brew "neovim"
+brew "nvm"
+brew "ykman"
