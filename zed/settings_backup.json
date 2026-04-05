@@ -10,9 +10,12 @@
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "claude-3.7-sonnet"
     },
-    "version": "2"
+    "default_profile": "write"
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
@@ -20,6 +23,9 @@
   },
   "ui_font_size": 16,
   "buffer_font_size": 14,
+  "buffer_font_features": {
+    "calt": false
+  },
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -32,5 +38,12 @@
     "inline_blame": {
       "enabled": false
     }
+  },
+  "formatter": "language_server",
+  "format_on_save": "off",
+  "auto_install_extensions": {
+    "html": true,
+    "git-firefly": true,
+    "sql": true
   }
 }
