@@ -6,4 +6,3 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 # Dock size
 defaults write com.apple.dock "tilesize" -int "60"
-

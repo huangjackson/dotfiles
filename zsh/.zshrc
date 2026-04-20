@@ -28,4 +28,3 @@ source $HOME/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 
 # highlighting (must stay at end)
 source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-

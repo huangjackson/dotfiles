@@ -13,4 +13,3 @@ for index ({1..9}) alias "$index"="cd +${index} > /dev/null"; unset index
 alias python='python3'
 alias py='python'
 alias pip='pip3'
-
