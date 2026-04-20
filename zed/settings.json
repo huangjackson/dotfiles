@@ -7,16 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "edit_predictions": {
-    "provider": "copilot"
-  },
-  "agent": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
-    },
-    "default_profile": "write"
-  },
+  "disable_ai": true,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -43,7 +34,6 @@
   "format_on_save": "off",
   "auto_install_extensions": {
     "html": true,
-    "git-firefly": true,
-    "sql": true
+    "git-firefly": true
   }
 }
