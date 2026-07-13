@@ -13,3 +13,7 @@ for index ({1..9}) alias "$index"="cd +${index} > /dev/null"; unset index
 alias python='python3'
 alias py='python'
 alias pip='pip3'
+
+# ai stack
+alias pi-sandbox-run='docker run --rm -it -v "$PWD:/workspace" -v ~/.pi/agent:/root/.pi/agent --add-host=host.docker.internal:host-gateway pi-sandbox'
+alias pi='pi-sandbox-run'

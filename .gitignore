@@ -4,7 +4,7 @@
 # zsh
 .zsh_history
 .zsh_sessions/
-.zcompdump
+.zcompdump*
 
 # vim
 viminfo
@@ -20,4 +20,3 @@ zed/themes
 
 # Docker
 cagent/
-
