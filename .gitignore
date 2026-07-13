@@ -17,3 +17,7 @@ zed/conversations
 zed/embeddings
 zed/prompts
 zed/themes
+
+# Docker
+cagent/
+

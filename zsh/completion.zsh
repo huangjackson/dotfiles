@@ -6,6 +6,7 @@
 
 # Load more completions
 fpath+=($HOME/.config/zsh/plugins/zsh-completions/src)
+fpath+=($HOME/.docker/completions) # Docker completions
 
 # Should be called before compinit
 zmodload zsh/complist
