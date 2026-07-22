@@ -29,7 +29,8 @@ My MacOS + zsh config files.
 
 ## TODO
 
-- [ ] Write an install script
-- [ ] Reconfigure nvim from scratch
 - [ ] Add SSH config template (`~/.ssh/config`)
 - [ ] Set up a local `git config.local` template for auth info
+- [ ] Add instructions for installing SSH config, git config.local, Firefox user.js
+- [ ] Write an install script
+- [ ] Reconfigure nvim from scratch
