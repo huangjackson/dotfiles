@@ -1,6 +1,6 @@
 # Dotfiles
 
-My MacOS + zsh config files.
+My macOS + zsh config files.
 
 ## Install
 

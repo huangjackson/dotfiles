@@ -1,4 +1,4 @@
-# fix VIMINIT conflict with neovim
+# Fix VIMINIT conflict with neovim
 alias vim='VIMINIT="source ~/.config/vim/vimrc" vim'
 
 # ls
@@ -9,11 +9,11 @@ alias la='ls -A'
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index} > /dev/null"; unset index
 
-# python
+# Python
 alias python='python3'
 alias py='python'
 alias pip='pip3'
 
-# ai stack
+# AI Stack
 alias pi-sandbox-run='docker run --rm -it -v "$PWD:/workspace" -v ~/.pi/agent:/root/.pi/agent --add-host=host.docker.internal:host-gateway pi-sandbox'
 alias pi='pi-sandbox-run'
